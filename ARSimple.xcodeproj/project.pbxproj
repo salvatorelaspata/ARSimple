@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C13183EA28AFFF8800B92C1E /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0D28AFE5B100474B20 /* teapot.usdz */; };
+		C13183EB28AFFFF100B92C1E /* lego.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0B28AFE5B000474B20 /* lego.usdz */; };
+		C13183EC28AFFFF500B92C1E /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0F28AFE5B100474B20 /* toy_biplane.usdz */; };
+		C13183ED28AFFFF700B92C1E /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D1128AFE5B200474B20 /* toy_car.usdz */; };
+		C13183EE28AFFFF900B92C1E /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0C28AFE5B100474B20 /* toy_drummer.usdz */; };
+		C13183EF28AFFFFB00B92C1E /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D1028AFE5B100474B20 /* toy_robot_vintage.usdz */; };
+		C13183F028AFFFFE00B92C1E /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0E28AFE5B100474B20 /* tv_retro.usdz */; };
+		C13183F228B0130E00B92C1E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13183F128B0130E00B92C1E /* Model.swift */; };
+		C13183F528B01A2200B92C1E /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = C13183F428B01A2200B92C1E /* FocusEntity */; };
 		C135C42628AD3A45007EA37A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135C42528AD3A45007EA37A /* AppDelegate.swift */; };
 		C135C42828AD3A45007EA37A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135C42728AD3A45007EA37A /* ContentView.swift */; };
 		C135C42A28AD3A45007EA37A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C135C42928AD3A45007EA37A /* Experience.rcproject */; };
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C13183F128B0130E00B92C1E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C135C42228AD3A45007EA37A /* ARSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135C42528AD3A45007EA37A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C135C42728AD3A45007EA37A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +56,14 @@
 		C135C43E28AD3A49007EA37A /* ARSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135C44228AD3A49007EA37A /* ARSimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSimpleUITests.swift; sourceTree = "<group>"; };
 		C135C44428AD3A49007EA37A /* ARSimpleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSimpleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1E71CEA28AE60FB00474B20 /* Custom.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Custom.rcproject; sourceTree = "<group>"; };
+		C1E71D0B28AFE5B000474B20 /* lego.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lego.usdz; sourceTree = "<group>"; };
+		C1E71D0C28AFE5B100474B20 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		C1E71D0D28AFE5B100474B20 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		C1E71D0E28AFE5B100474B20 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		C1E71D0F28AFE5B100474B20 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		C1E71D1028AFE5B100474B20 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		C1E71D1128AFE5B200474B20 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13183F528B01A2200B92C1E /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,11 +115,14 @@
 		C135C42428AD3A45007EA37A /* ARSimple */ = {
 			isa = PBXGroup;
 			children = (
+				C1E71D0A28AFE5B000474B20 /* Models */,
 				C135C42528AD3A45007EA37A /* AppDelegate.swift */,
 				C135C42728AD3A45007EA37A /* ContentView.swift */,
 				C135C42928AD3A45007EA37A /* Experience.rcproject */,
 				C135C42B28AD3A48007EA37A /* Assets.xcassets */,
 				C135C42D28AD3A48007EA37A /* Preview Content */,
+				C1E71CEA28AE60FB00474B20 /* Custom.rcproject */,
+				C13183F128B0130E00B92C1E /* Model.swift */,
 			);
 			path = ARSimple;
 			sourceTree = "<group>";
@@ -130,6 +152,20 @@
 			path = ARSimpleUITests;
 			sourceTree = "<group>";
 		};
+		C1E71D0A28AFE5B000474B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1E71D0B28AFE5B000474B20 /* lego.usdz */,
+				C1E71D0D28AFE5B100474B20 /* teapot.usdz */,
+				C1E71D0F28AFE5B100474B20 /* toy_biplane.usdz */,
+				C1E71D1128AFE5B200474B20 /* toy_car.usdz */,
+				C1E71D0C28AFE5B100474B20 /* toy_drummer.usdz */,
+				C1E71D1028AFE5B100474B20 /* toy_robot_vintage.usdz */,
+				C1E71D0E28AFE5B100474B20 /* tv_retro.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +182,9 @@
 			dependencies = (
 			);
 			name = ARSimple;
+			packageProductDependencies = (
+				C13183F428B01A2200B92C1E /* FocusEntity */,
+			);
 			productName = ARSimple;
 			productReference = C135C42228AD3A45007EA37A /* ARSimple.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +257,9 @@
 				Base,
 			);
 			mainGroup = C135C41928AD3A45007EA37A;
+			packageReferences = (
+				C13183F328B01A2200B92C1E /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = C135C42328AD3A45007EA37A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +276,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13183F028AFFFFE00B92C1E /* tv_retro.usdz in Resources */,
+				C13183EF28AFFFFB00B92C1E /* toy_robot_vintage.usdz in Resources */,
+				C13183EB28AFFFF100B92C1E /* lego.usdz in Resources */,
+				C13183EC28AFFFF500B92C1E /* toy_biplane.usdz in Resources */,
+				C13183EE28AFFFF900B92C1E /* toy_drummer.usdz in Resources */,
+				C13183EA28AFFF8800B92C1E /* teapot.usdz in Resources */,
 				C135C42F28AD3A48007EA37A /* Preview Assets.xcassets in Resources */,
 				C135C42C28AD3A48007EA37A /* Assets.xcassets in Resources */,
+				C13183ED28AFFFF700B92C1E /* toy_car.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +312,7 @@
 				C135C42828AD3A45007EA37A /* ContentView.swift in Sources */,
 				C135C42628AD3A45007EA37A /* AppDelegate.swift in Sources */,
 				C135C42A28AD3A45007EA37A /* Experience.rcproject in Sources */,
+				C13183F228B0130E00B92C1E /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +641,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C13183F328B01A2200B92C1E /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C13183F428B01A2200B92C1E /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C13183F328B01A2200B92C1E /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C135C41A28AD3A45007EA37A /* Project object */;
 }
