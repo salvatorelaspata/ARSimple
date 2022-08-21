@@ -16,6 +16,7 @@
 		C13183F028AFFFFE00B92C1E /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0E28AFE5B100474B20 /* tv_retro.usdz */; };
 		C13183F228B0130E00B92C1E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13183F128B0130E00B92C1E /* Model.swift */; };
 		C13183F528B01A2200B92C1E /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = C13183F428B01A2200B92C1E /* FocusEntity */; };
+		C1326D9128B159BB00FBF13E /* FocusARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1326D9028B159BB00FBF13E /* FocusARView.swift */; };
 		C135C42628AD3A45007EA37A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135C42528AD3A45007EA37A /* AppDelegate.swift */; };
 		C135C42828AD3A45007EA37A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135C42728AD3A45007EA37A /* ContentView.swift */; };
 		C135C42A28AD3A45007EA37A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C135C42928AD3A45007EA37A /* Experience.rcproject */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		C13183F128B0130E00B92C1E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C1326D9028B159BB00FBF13E /* FocusARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusARView.swift; sourceTree = "<group>"; };
 		C135C42228AD3A45007EA37A /* ARSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135C42528AD3A45007EA37A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C135C42728AD3A45007EA37A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 		C135C43E28AD3A49007EA37A /* ARSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135C44228AD3A49007EA37A /* ARSimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSimpleUITests.swift; sourceTree = "<group>"; };
 		C135C44428AD3A49007EA37A /* ARSimpleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSimpleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C1E71CEA28AE60FB00474B20 /* Custom.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Custom.rcproject; sourceTree = "<group>"; };
 		C1E71D0B28AFE5B000474B20 /* lego.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lego.usdz; sourceTree = "<group>"; };
 		C1E71D0C28AFE5B100474B20 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
 		C1E71D0D28AFE5B100474B20 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
@@ -121,8 +122,8 @@
 				C135C42928AD3A45007EA37A /* Experience.rcproject */,
 				C135C42B28AD3A48007EA37A /* Assets.xcassets */,
 				C135C42D28AD3A48007EA37A /* Preview Content */,
-				C1E71CEA28AE60FB00474B20 /* Custom.rcproject */,
 				C13183F128B0130E00B92C1E /* Model.swift */,
+				C1326D9028B159BB00FBF13E /* FocusARView.swift */,
 			);
 			path = ARSimple;
 			sourceTree = "<group>";
@@ -310,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C135C42828AD3A45007EA37A /* ContentView.swift in Sources */,
+				C1326D9128B159BB00FBF13E /* FocusARView.swift in Sources */,
 				C135C42628AD3A45007EA37A /* AppDelegate.swift in Sources */,
 				C135C42A28AD3A45007EA37A /* Experience.rcproject in Sources */,
 				C13183F228B0130E00B92C1E /* Model.swift in Sources */,
