@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1033C2F28C65D8700751F57 /* pigna_verde.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1033C2D28C65D8600751F57 /* pigna_verde.usdz */; };
+		C1033C3028C65D8700751F57 /* angioletto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1033C2E28C65D8700751F57 /* angioletto.usdz */; };
+		C1033C3428C65DEE00751F57 /* testa_di_moro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1033C3328C65DEE00751F57 /* testa_di_moro.usdz */; };
 		C13183EA28AFFF8800B92C1E /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0D28AFE5B100474B20 /* teapot.usdz */; };
 		C13183EB28AFFFF100B92C1E /* lego.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0B28AFE5B000474B20 /* lego.usdz */; };
 		C13183EC28AFFFF500B92C1E /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C1E71D0F28AFE5B100474B20 /* toy_biplane.usdz */; };
@@ -47,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1033C2D28C65D8600751F57 /* pigna_verde.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pigna_verde.usdz; sourceTree = "<group>"; };
+		C1033C2E28C65D8700751F57 /* angioletto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = angioletto.usdz; sourceTree = "<group>"; };
+		C1033C3328C65DEE00751F57 /* testa_di_moro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = testa_di_moro.usdz; sourceTree = "<group>"; };
 		C13183F128B0130E00B92C1E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C1326D9028B159BB00FBF13E /* FocusARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusARView.swift; sourceTree = "<group>"; };
 		C135C42228AD3A45007EA37A /* ARSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +167,9 @@
 		C1E71D0A28AFE5B000474B20 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C1033C3328C65DEE00751F57 /* testa_di_moro.usdz */,
+				C1033C2E28C65D8700751F57 /* angioletto.usdz */,
+				C1033C2D28C65D8600751F57 /* pigna_verde.usdz */,
 				C1E71D0B28AFE5B000474B20 /* lego.usdz */,
 				C1E71D0D28AFE5B100474B20 /* teapot.usdz */,
 				C1E71D0F28AFE5B100474B20 /* toy_biplane.usdz */,
@@ -291,14 +300,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1033C2F28C65D8700751F57 /* pigna_verde.usdz in Resources */,
 				C13183F028AFFFFE00B92C1E /* tv_retro.usdz in Resources */,
 				C13183EF28AFFFFB00B92C1E /* toy_robot_vintage.usdz in Resources */,
+				C1033C3428C65DEE00751F57 /* testa_di_moro.usdz in Resources */,
 				C13183EB28AFFFF100B92C1E /* lego.usdz in Resources */,
 				C13183EC28AFFFF500B92C1E /* toy_biplane.usdz in Resources */,
 				C13183EE28AFFFF900B92C1E /* toy_drummer.usdz in Resources */,
 				C13183EA28AFFF8800B92C1E /* teapot.usdz in Resources */,
 				C135C42F28AD3A48007EA37A /* Preview Assets.xcassets in Resources */,
 				C135C42C28AD3A48007EA37A /* Assets.xcassets in Resources */,
+				C1033C3028C65D8700751F57 /* angioletto.usdz in Resources */,
 				C13183ED28AFFFF700B92C1E /* toy_car.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
